@@ -1,0 +1,63 @@
+/* Color Name */
+h1{
+    color:bisque;
+}
+/* NOTE: CSS Styles can be overridden (The style that comes last in the CSS file ill be applied */
+h1{ color: plum;}
+
+/* Hexadecimal */
+/*A Hexadecimal number/character goes from zero to the letter F */
+/* 0123456789ABCDEF */
+/* # + 6 hexadecimal numbers/characters */
+/* Example: #09BE23 */
+/*First two determine the amount of Red */
+/* Second two determine the amount of Green */
+/* Third/last two determine the amount of Blue */
+/* Hexadecimal Colors work as if they are light not paints */
+/* #FFFFFF would be white */ 
+/* #000000 would be black */
+/* Example 1 */
+h1{ 
+    /* This is green */
+    color: #00ff00;
+}
+h1 {
+    color: #0000FF;
+}
+/* Shorthand way to write a hexadecimal color (first two must match, as well as the second two, ect.) */
+h1{ /* color:#000000 */
+    color: #000;
+}
+h1{
+    /* #1155CC; */
+    color: #15C;
+
+}
+/* Transparency with Hexadecimal Colors */
+/* An extra two numbers/characters can be used to determine transparency. The lower the number/characters are the more transparent the color will be. */
+h1{ 
+    color: #dfdf5500;
+}
+h1{ /* NOT transparent at all */
+    color: #0000ffff;
+}
+h1{
+    /*Shorthand example 
+}
+/* RGB (Red, Green, Blue) */
+/* RGB has 3 channels/positions */
+/* rgb (#,#,#) */
+/* Each channel/position goes from 0 to 255 */
+/* Example: rgb(0, 14, 255) */
+h1 {
+    /* this is red */ 
+    colors: rgb(255, 0, 0); }
+
+    /* RGBA (Red, Green, Blue, Alpha) */
+    /* Alpha determines the transparency */
+    /* Alpha goes from 0 to 1 */
+    /* Example: rgba (12, 54, 154, 0.7) */
+    h1 { 
+        /*Setting the Alpha channel/position to zero will make the element fully transparent. Setting it to 1 will make it NOT TRANSPARENT
+        color: rgba( 0, 0, 255, 1);
+    }

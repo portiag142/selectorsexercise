@@ -1,0 +1,27 @@
+/* CSS (Cascading Style Sheet) */
+
+/* This is a CSS comment */
+/* Command plus / will also work in a CSS file to create a comment */
+
+/* CSS Syntax */
+/*
+selector { 
+    property (certain type of style) 
+    property: value;
+    second-property: value;
+
+}
+*/
+/* Example 1 */
+/* This will make all text in h1 elements green and have a font size of 14 pixels */
+h1 {
+    color:chartreuse;
+    font-size: 14px;
+}
+
+/* Example 2 */
+/* This will make all divs have a backgrounf color of cornflowerblue and a darkblue border */
+div {
+    background-color: cornflowerblue;
+    border:darkblue;
+}

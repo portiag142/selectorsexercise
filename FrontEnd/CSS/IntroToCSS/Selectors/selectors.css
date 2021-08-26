@@ -1,0 +1,21 @@
+/* Element/Tag Selector */
+/*Element/Tag selector is used to style all elements of a specified type*/
+li{
+border: 8px dotted olivedrab;
+
+}
+ul {
+    border: 5px solid blue;
+}
+/* ID SELECTOR*/
+/* ID Selector is used to style a single specific element*/
+/*Must use pound sign # before the id name (#name)*/
+#favorite {
+    background-color: palegreen;
+}
+/*Class Selector*/
+/* FOr a Class Selector it is used to style multiple elements*/
+
+.vintage{
+    background-color: seashell;
+}

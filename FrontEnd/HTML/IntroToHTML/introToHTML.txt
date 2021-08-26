@@ -1,0 +1,15 @@
+HTML...
+
+HTML (HyperText Markup Language)
+
+1. Elements
+  A. HTML is made up of different Elements (Tags)
+    i. Example: <h1>Hello World</h1>
+  B. Elements consist of an opening and closing tag with some content in between
+    i. Note: There are some exceptions to this rule (Ex: Self-closing elements/tags)
+
+2. File Naming      
+ A. HTML files end with the ".html" file extension
+ B. The standard name for an HTML file "index.html"
+   i. When a browser attempts to display a website it will first look for an index.html file 
+     a. Note: Some websites consist of multiple HTML files. Therefore not every HTML file will be named index.html 

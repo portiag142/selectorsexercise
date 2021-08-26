@@ -1,0 +1,80 @@
+/* STAR SELECTOR*/
+/*Sets the style for every element in the HTML file*/
+*{
+    border-left: 3px solid blueviolet;
+}
+
+/*MULTIPLE SELECTORS*/
+/*Sets the style for multiple selectors at once*/
+/*THis is helpful to condense*/
+h1, h3 {
+    background-color:hotpink;
+}
+
+/*ATTRIBUTE*/
+/* Sets the style for elements that have a certain attribute value*/
+
+a[href"https://www.rottentomatoes.com/top-tv"]{
+    border-top: 4px solid red;
+}
+
+/*DECENDANT SELECTOR*/
+/*Sets the style for the selector (Last specified selector) nested in another selector (1st specified selector(s)). even if they are nested more than one level.*/
+div h2{
+color: red;
+}
+ol ul li {
+    border-right: 6px dotted blue;
+}
+/*Specific Element with a Class*/
+/* Sets the style for only a specific element that has a class*/
+/*Class must be applied to more than one element type for this to be useful*/
+li.yellow{
+    background-color: yellow;
+}
+/*GENERAL SIBLING SELECTOR*/
+/* Sets the style for all following element (ol in this case) that are siblings of specified element (h3 in this case)*/
+h3~ol {
+    border-bottom: 6px solid green;
+}
+/*THE BELOW SELECTOR WAS JUST ANSWERING A QUESTION DURING THE LESSON*/
+
+/* How to remove the bottom border under the Third ol that immediately follows an h3*/
+h3 ~ ol:not(h3 + ol:nth-of-type(3)){
+    border-bottom: 6px solid green;
+
+}
+/*THE BELOW SELECTOR WAS JUST ANSWERING A QUESTION DURING THE LESSON*/
+/*How to remove the bottom border under the Third ol that immediately follows an h3*/
+/*h3 ~ ol:not(h3 + ol:nth-of-type(3)) 
+    border-bottom: 6px solid green;*/
+
+/* ADJACENT SIBLING SELECtOR*/
+/* Same as the General Sibling Selector. However, it wll only affect the element immediately following the specified element*/
+h3 + ol{
+
+    border-bottom: 6px solid black;
+}
+/* NTH of TYPE*/
+/*Styles every element that is a specified nth child (number provided) of a specified type (Selector provided) of its parent. Regardless of the type of parent element. */
+
+/* So in this case the 3rd li is styled including "Apple TV' because it is the 3rd li in the ordered list in the "Other" section*/
+li:nth-of-type(3) {
+    border-bottom: 4px solid greenyellow;
+}
+
+/* Nth of type can also be used to apply a style to multiple elements by using odd, even, or a number followed by an "n" (Example: 3n)*/
+li: nth-of-type(even) {
+    border-bottom: 4px solid greenyellow;
+} */
+
+/* li: nth-of-type(3n) {
+
+    border-bottom: 4px solid greenyellow;
+} */
+
+/* NTH CHILD*/
+/* Styles all elements (Element provided) that are the nth child (Number provided) of the parent elements. Regardless of the type of the parent element. */
+li:nth-child(2) {
+    background-color: orange;
+}
